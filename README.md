@@ -1,1 +1,1 @@
-# survay-form
+# survey-form
