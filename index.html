@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survay Form</title>
+</head>
+<body>
+    <h1>Survay Form</h1>
+    <div id="caixa">
+        <p>Let us know how we can improve freeCodeCamp.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text">
+            <br>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email">
+            <br>
+            <label for="age">Age:</label>
+            <input id="age" type="number" min="1">
+            <br>
+            <label for="role">Which optin best describes your current role?</label>
+            <select id="role">
+                <option value="">Student</option>
+                <option value="">Worker</option>
+                <option value="">Unemployed</option>
+            </select>
+            <p>How likely is that you would recommend freeCodeCamp to a friend?</p>
+            <input type="radio" name="recommend" id="definitely">
+            <label for="definitely">Definitely</label>
+            <br>
+            <input type="radio" name="recommend" id="maybe">
+            <label for="maybe">Maybe</label>
+            <br>
+            <input type="radio" name="recommend" id="not-sure">
+            <label for="not-sure">Not Sure</label>
+            <br>
+            <label for="like-most">What do you like most in FCC</label>
+            <select id="like-most">
+                <option value="">Projects</option>
+                <option value="">Activities</option>
+                <option value="">Teachers</option>
+            </select>
+            <br>
+            <p>Things that should be improved in the future (Check all that apply)</p>
+            <input type="checkbox" name="should-improve" id="definitely">
+            <label for="definitely">Front-end Projects</label>
+            <br>
+            <input type="checkbox" name="should-improve" id="maybe">
+            <label for="maybe">Back-end Projects</label>
+            <br>
+            <input type="checkbox" name="should-improve" id="not-sure">
+            <label for="not-sure">Data Visualization</label>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
